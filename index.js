@@ -19,8 +19,8 @@
 })(function () {
     var PinYin = null;
     function includeChinese(){
-        if(typeof require==='function'){
-            if(require.amd){
+        if(typeof define==='function'){
+            if(define.amd){
                 require(['./pinyin'], function(m){
                     PinYin = m;
                 });
