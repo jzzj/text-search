@@ -1,0 +1,24 @@
+{
+  "name": "text-search",
+  "version": "1.0.0",
+  "description": "search text, support chinese.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzzj/text-search.git"
+  },
+  "keywords": [
+    "text",
+    "search",
+    "chinese"
+  ],
+  "author": "zangzhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jzzj/text-search/issues"
+  },
+  "homepage": "https://github.com/jzzj/text-search#readme"
+}
