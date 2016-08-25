@@ -53,6 +53,9 @@
         constructor: Search,
         search: function(key){
             var list = this.list;
+            if(!key){
+                return list;
+            }
             if(!list){
                 return null;
             }
